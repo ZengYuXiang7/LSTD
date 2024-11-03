@@ -35,7 +35,7 @@ def git_pull():
         data = pickle.load(f)
         username = data['username']
         password = data['password']
-    child = pexpect.spawn("git pull")
+    child = pexpect.spawn("git pull origin main --rebase")
     child.logfile = sys.stdout.buffer
     child.expect("Username for 'https://github.com':")
     child.sendline(username)
