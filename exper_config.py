@@ -17,6 +17,7 @@ class TestConfig(ExperimentConfig, BaseModelConfig, LoggerConfig, DatasetInfo, T
     S_windows: int = 10
     bs: int = 1024
     device: str = 'cuda'
-    epochs: int = 300
-    patience: int = 30
+    epochs: int = 400
+    patience: int = 40
+    loss_func: str = 'MSELoss'
 

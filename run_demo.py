@@ -8,10 +8,12 @@ import sys
 
 sys.dont_write_bytecode = True
 
+
 def debug(commands):
     commands.append(f"python train_model.py --config_path ./exper_config.py --exp_name TestConfig "
-                       f"--density 100 --retrain 1 --device cpu --rank 300 --rounds 3")
+                    f"--density 100 --retrain 1 --device cpu --rank 300 --rounds 3")
     return commands
+
 
 def Baselines(commands):
     train_sizes = [100]
@@ -50,7 +52,7 @@ def Ablation(commands):
 def Our_model(commands):
     # densites = [0.01, 0.02, 0.025, 0.03, 0.04, 0.05, 0.06,0.075,0.08,0.10]
     ranks = [100]
-    densites = [0.01, 0.02, 0.025, 0.03, 0.04, 0.05, 0.06,0.075,0.08,0.10]
+    densites = [0.01, 0.02, 0.025, 0.03, 0.04, 0.05, 0.06, 0.075, 0.08, 0.10]
     for density in densites:
         for rank in ranks:
             command = (f"python train_model.py --config_path ./exper_config.py --exp_name TestConfig "
