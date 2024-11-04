@@ -39,5 +39,5 @@ if __name__ == "__main__":
         git_reset(cnt)
     elif inputs == 'update':
         message = input('message (if no, just enter!): ').strip()
-        git_update(message)
+        git_update() if message == '' else git_update(message)
 
