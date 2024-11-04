@@ -32,16 +32,12 @@ if __name__ == "__main__":
     if inputs == 'pull':
         git_pull()
     elif inputs == 'push':
-        try:
-            message = input('message : ').strip()
-            git_push(message)
-        except Exception as e:
-            git_pull()
-            git_push(message)
+        message = input('message : ').strip()
+        git_push(message)
     elif inputs == 'reset':
         cnt = int(input('number of commits : ').strip())
         git_reset(cnt)
     elif inputs == 'update':
         message = input('message (if no, just enter!): ').strip()
-        git_push(message)
+        git_update(message)
 
