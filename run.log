@@ -22,3 +22,5 @@ Experiment Start!!!
 Running at 2024-11-04 21:11: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
 Experiment Start!!!
 Running at 2024-11-04 21:12: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Experiment Start!!!
+Running at 2024-11-04 21:15: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
