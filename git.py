@@ -21,12 +21,15 @@ def git_pull():
     subprocess.run(f'git commit -am "Commit the work before the pull"', shell=True)
     subprocess.run(f'git pull', shell=True)
 
+def git_only_pull():
+    subprocess.run(f'git pull', shell=True)
+
 def git_reset(cnt):
     subprocess.run(f"git reset main{'^' * cnt}", shell=True)
 
 
 if __name__ == "__main__":
-    inputs = input('push or pull or reset? : ').strip()
+    inputs = input('push or pull or reset or only pull? : ').strip()
     if inputs == 'pull':
         git_pull()
     elif inputs == 'push':
@@ -39,3 +42,6 @@ if __name__ == "__main__":
     elif inputs == 'reset':
         cnt = int(input('number of commits : ').strip())
         git_reset(cnt)
+    elif inputs == 'only pull':
+        git_only_pull()
+
