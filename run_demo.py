@@ -84,7 +84,7 @@ def run_command(command, log_file, retry_count=0):
             f.write(f"{retry_message} at {current_time}: {command}\n")
 
         # 直接执行命令，将输出和错误信息打印到终端
-        process = subprocess.run('clear && ulimit -s unlimited && ulimit -c unlimited && ulimit -a &&' + command, shell=True)
+        process = subprocess.run(f'clear && echo {command} && ulimit -s unlimited; ulimit -c unlimited&& ulimit -a &&' + command, shell=True)
 
         # 根据返回码判断命令是否成功执行
         if process.returncode == 0:
