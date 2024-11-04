@@ -19,9 +19,8 @@ def git_push(message):
         data = pickle.load(f)
         username = data['username']
         password = data['password']
-    subprocess.run("git add -A", shell=True)
-    subprocess.run(f'git commit -m "{message}"', shell=True)
-    child = pexpect.spawn("git push -u origin main")
+    subprocess.run(f'git commit -am "{message}"', shell=True)
+    child = pexpect.spawn("git push")
     child.logfile = sys.stdout.buffer
     child.expect("Username for 'https://github.com':")
     child.sendline(username)
@@ -35,7 +34,7 @@ def git_pull():
         data = pickle.load(f)
         username = data['username']
         password = data['password']
-    child = pexpect.spawn("git pull origin main --rebase")
+    child = pexpect.spawn("git pull")
     child.logfile = sys.stdout.buffer
     child.expect("Username for 'https://github.com':")
     child.sendline(username)
