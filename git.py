@@ -20,8 +20,8 @@ def git_push(message):
 def git_pull():
     subprocess.run(f'git pull', shell=True)
 
-def git_update(message='Commit the work before the pull'):
-    subprocess.run(f'git commit -am {message}', shell=True)
+def git_update():
+    subprocess.run(f'git commit -am "Commit the work before the pull"', shell=True)
     subprocess.run(f'git pull', shell=True)
 
 def git_reset(cnt):
@@ -38,6 +38,5 @@ if __name__ == "__main__":
         cnt = int(input('number of commits : ').strip())
         git_reset(cnt)
     elif inputs == 'update':
-        message = input('message (if no, just enter!): ').strip()
-        git_update() if message == '' else git_update(message)
+        git_update()
 
