@@ -13,19 +13,19 @@ def git_first_push(url):
     subprocess.run(f"git config --global credential.helper store", shell=True)
     subprocess.run(f"git push -u origin main", shell=True)
 
-
 def git_push(message):
     subprocess.run(f'git commit -am "{message}"', shell=True)
     subprocess.run(f"git push", shell=True)
 
 def git_pull():
-    subprocess.run(f'git commit -am "Commit the work before the pull"', shell=True)
     subprocess.run(f'git pull', shell=True)
 
+# def git_pull():
+#     subprocess.run(f'git commit -am "Commit the work before the pull"', shell=True)
+#     subprocess.run(f'git pull', shell=True)
 
 def git_reset(cnt):
     subprocess.run(f"git reset main{'^' * cnt}", shell=True)
-
 
 
 if __name__ == "__main__":
