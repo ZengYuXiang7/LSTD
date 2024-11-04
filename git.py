@@ -23,23 +23,22 @@ def git_pull():
     subprocess.run(f'git push', shell=True)
 
 
-
 def git_reset(cnt):
     subprocess.run(f"git reset main{'^' * cnt}", shell=True)
 
 
 
 if __name__ == "__main__":
-    inputs = input('push or pull or reset? : ')
+    inputs = input('push or pull or reset? : ').strip()
     if inputs == 'pull':
         git_pull()
     elif inputs == 'push':
         try:
-            message = input('message : ')
+            message = input('message : ').strip()
             git_push(message)
         except Exception as e:
             git_pull()
             git_push(message)
     elif inputs == 'reset':
-        cnt = int(input('number of commits : '))
+        cnt = int(input('number of commits : ').strip())
         git_reset(cnt)
