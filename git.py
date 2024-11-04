@@ -18,11 +18,8 @@ def git_push(message):
     subprocess.run(f"git push", shell=True)
 
 def git_pull():
+    subprocess.run(f'git commit -am "Commit the work before the pull"', shell=True)
     subprocess.run(f'git pull', shell=True)
-
-# def git_pull():
-#     subprocess.run(f'git commit -am "Commit the work before the pull"', shell=True)
-#     subprocess.run(f'git pull', shell=True)
 
 def git_reset(cnt):
     subprocess.run(f"git reset main{'^' * cnt}", shell=True)
