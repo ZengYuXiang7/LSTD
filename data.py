@@ -29,7 +29,7 @@ class experiment:
                 data = pickle.load(f)
         except FileNotFoundError:
             string = './datasets/' + 'rtdata' + '.txt'
-            rtdata = np.loadtxt(open(string, 'rb')).astype(np.float64)
+            rtdata = np.loadtxt(open(string, 'rb')).astype(np.float32)
             index_max = np.max(rtdata, axis=0)[:-1].astype(np.int32) + 1
             data = np.zeros(index_max)
             for i, j, k, value in rtdata:
@@ -118,7 +118,7 @@ def custom_collate_fn(batch, args):
     timeIdx = torch.as_tensor(timeIdx)
     userIdx = torch.as_tensor(userIdx)
     servIdx = torch.as_tensor(servIdx)
-    values = torch.as_tensor(values)
+    values = torch.as_tensor(values, dtype=torch.float32)
     return timeIdx, userIdx, servIdx, values
 
 

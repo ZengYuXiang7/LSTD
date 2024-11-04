@@ -168,6 +168,7 @@ def RunExperiments(log, args):
                 metrics[key].append(results[key])
             plotter.append_round()
         except Exception as e:
+            raise Exception
             log(f'Run {runId + 1} Error: {e}, This run will be skipped.')
         except KeyboardInterrupt:
             break
