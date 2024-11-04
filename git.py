@@ -20,7 +20,6 @@ def git_push(message):
 def git_pull():
     subprocess.run(f'git commit -am "First commit the work before the pull"', shell=True)
     subprocess.run(f'git pull', shell=True)
-    subprocess.run(f'git push', shell=True)
 
 
 def git_reset(cnt):
