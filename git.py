@@ -6,10 +6,11 @@ import sys
 import os
 import pickle
 
-def git_first_push():
-    subprocess.run(f"git add --all", shell=True)
+def git_first_push(url):
     subprocess.run(f"git branch -M main", shell=True)
-    subprocess.run(f"git commit -m 'First Commit'", shell=True)
+    subprocess.run(f"git commit -am 'First Commit'", shell=True)
+    subprocess.run(f"git remote add {url}", shell=True)
+    subprocess.run(f"git config --global credential.helper store", shell=True)
     subprocess.run(f"git push -u origin main", shell=True)
 
 
@@ -18,7 +19,7 @@ def git_push(message):
     subprocess.run(f"git push", shell=True)
 
 def git_pull():
-    subprocess.run(f'git commit -am "First commit the work before the pull"', shell=True)
+    subprocess.run(f'git commit -am "Commit the work before the pull"', shell=True)
     subprocess.run(f'git pull', shell=True)
 
 
