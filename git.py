@@ -14,20 +14,8 @@ def git_first_push():
 
 
 def git_push(message):
-    # subprocess.run(f"git pull --rebase", shell=True)
-    with open(os.path.expanduser('~') +'/github_personal_access_token.pkl', 'rb') as f:
-        data = pickle.load(f)
-        username = data['username']
-        password = data['password']
     subprocess.run(f'git commit -am "{message}"', shell=True)
-    child = pexpect.spawn("git push")
-    child.logfile = sys.stdout.buffer
-    child.expect("Username for 'https://github.com':")
-    child.sendline(username)
-    child.expect(f"Password for 'https://{username}@github.com':")
-    child.sendline(password)
-    child.expect(pexpect.EOF)
-
+    subprocess.run(f"git push", shell=True)
 
 def git_pull():
     with open(os.path.expanduser('~') + '/github_personal_access_token.pkl', 'rb') as f:
