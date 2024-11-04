@@ -28,7 +28,7 @@ def git_reset(cnt):
     subprocess.run(f"git reset main{'^' * cnt}", shell=True)
 
 if __name__ == "__main__":
-    inputs = input('push or pull or reset or only pull? : ').strip()
+    inputs = input('push or pull or reset or update? : ').strip()
     if inputs == 'pull':
         git_pull()
     elif inputs == 'push':
