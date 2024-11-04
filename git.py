@@ -42,3 +42,4 @@ if __name__ == "__main__":
     elif inputs == 'reset':
         cnt = int(input('number of commits : ').strip())
         git_reset(cnt)
+    print(1)
