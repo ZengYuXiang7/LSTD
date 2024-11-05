@@ -32,7 +32,7 @@ class BaseModelConfig:
 @dataclass
 class DatasetInfo:
     path: str = './datasets/'
-    dataset: str = 'cpu'
+    dataset: str = 'rt'
     train_size: int = 500
     density: float = 0.80
 

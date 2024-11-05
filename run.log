@@ -24,3 +24,63 @@ Experiment Start!!!
 Running at 2024-11-04 21:12: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
 Experiment Start!!!
 Running at 2024-11-04 21:15: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Experiment Start!!!
+Running at 2024-11-04 21:16: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Experiment Start!!!
+Running at 2024-11-04 21:23: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 21:37: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 21:44: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 21:57: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:02: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:03: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:04: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:04: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:07: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:09: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:12: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:17: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:29: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 22:32: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Experiment Start!!!
+Running at 2024-11-04 23:00: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:08: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:13: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:13: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:14: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:16: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:17: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:20: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:22: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:23: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:25: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:25: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:28: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Command failed, retrying in 3 seconds: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Retrying at 2024-11-04 23:31: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
+Experiment Start!!!
+Running at 2024-11-05 14:06: python train_model.py --config_path ./exper_config.py --exp_name TestConfig --density 0.01 --retrain 1 --rank 100 --density 0.01 --rounds 3
